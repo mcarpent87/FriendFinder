@@ -5,16 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Pacifico|Righteous" rel="stylesheet">
+    <!--Bootstrap 4.0-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Font awesome text icons-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
+<style>
+h1 {color: navy; font-family: 'Righteous', cursive; font-size: 84px;}
+label {font-family:Arial, Helvetica, sans-serif; font-weight: bold; font-size: 20px;}
+.form-control {width: 400px; font-family: Arial, Helvetica, sans-serif;}
+.btn.btn-lg.btn-warning { font-family: Arial, Helvetica, sans-serif; font-weight: bold; width: 400px;}
+a {font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+p {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 24px;}
+</style>
 <body>
 <div class="container">
+<form>
 <div class="jumbotron">
-        <h1 class="text-center" style="font-size:72px"><span class="fa fa-users"></span>Friend Finder Survey</h1>
-    <form>
+        <h1 class="text-center"><span class="fa fa-users"></span>Friend Finder Survey</h1>
+        <hr>
+        <br>
+        <form>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Name (Required)</label>
@@ -25,9 +39,10 @@
                 <input type="email" class="form-control" id="photo" placeholder="">
             </div>
         </div>
-    </form>
+
 </div>
 <div class="form-group">
+        <p>Question 1</p>
         <label for="question1">I dislike everyone and everything.</label>
         <select class="form-control" id="question1">
             <option value="empty"></option>
@@ -39,8 +54,9 @@
         </select>
 </div>
 <div class="form-group">
+        <p>Question 2</p>
         <label for="question2">I like my steak rare and my whiskey well aged.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question2">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -50,8 +66,9 @@
         </select>
 </div>   
 <div class="form-group">
+        <p>Question 3</p>
         <label for="question3">I have a strong passion for politics.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question3">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -61,8 +78,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 4</p>
         <label for="question4">I love to workout and am a fitness nut.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question4">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -72,8 +90,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 5</p>
         <label for="question5">I love karate and law enforcement.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question5">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -83,8 +102,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 6</p>
         <label for="question6">I like to be outdoors in solitude.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question6">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -94,8 +114,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 7</p>
         <label for="question7">I have an entrepreneurial spirit.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question7">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -105,8 +126,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 8</p>
         <label for="question8">I am God's gift to women.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question8">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -116,8 +138,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 9</p>
         <label for="question9">I have a thing for brunettes.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question9">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -127,8 +150,9 @@
         </select>
 </div> 
 <div class="form-group">
+        <p>Question 10</p>
         <label for="question10">I am a big believer of treating yo' self.</label>
-        <select class="form-control" id="question1">
+        <select class="form-control" id="question10">
             <option value="empty"></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -137,13 +161,10 @@
             <option value="5">5 (Strongly Agree)</option>
         </select>
 </div>
-    
-</div>
-<button type="button" class="btn btn-primary" data-toggle="modal" id = "submitButton" data-target="#bestFriendModal">
-        Submit
-      </button>
-
-</div>
+</form>   
+    <div>
+            <button type="button" class="btn btn-lg btn-warning" data-toggle="modal" id = "submitButton" data-target="#bestFriendModal"><span class="fa fa-check-circle"></span>Submit</button>
+    </div>
       <div class="modal fade" id="bestFriendModal" tabindex="-1" role="dialog" aria-labelledby="bestFriendModalTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -159,13 +180,19 @@
                     <img id="bestFriendPhoto"  width="300px" height="auto" src="#">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Close</button>
-              <a class="btn btn-warning btn-lg" href="./survey.html" role="button">Restart Survey</a>
+                <a class="btn btn-warning btn-lg" href="./home.html" role="button">Close</a>
+                <a class="btn btn-warning btn-lg" href="./survey.html" role="button">Restart Survey</a>
             </div>
           </div>
         </div>
       </div>
 </div>
+<br>
+<footer class="footer">
+    <div class="container">
+        <a href='/api/friends'>API Friends List</a> | <a href='https://github.com/mcarpent87/FriendFinder'>Github Repository</a>
+    </div>
+</footer>
 <!--jQuery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -204,8 +231,9 @@
 				$("#bestFriendModal").modal("toggle");
 			});
 		} else {
-			// If a required field is missing, show alert
-			alert("Survey is incomplete!");
+			// If a required field is missing, show alert, redirect to home page
+            alert("Survey is incomplete!");
+            document.location.href="./home.html";
 		}
 	});
 </script>
