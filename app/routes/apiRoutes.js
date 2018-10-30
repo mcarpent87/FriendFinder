@@ -1,3 +1,4 @@
+//Bring friends array over from friends.js
 var friendsArray = require("../data/friends");
 
 module.exports = function(app) {
@@ -23,10 +24,11 @@ module.exports = function(app) {
 
     // in this for-loop, start off with a zero difference and compare the user and the ith friend scores, one set at a time
     //  whatever the difference is, add to the total difference
-    for(var i = 0; i < friends.length; i++) {
+    for(var i = 0; i < friendsArray.length; i++) {
       var totalDifference = 0;
-      for(var j = 0; j < friends[i].scores.length; j++) {
-        var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
+      for(var j = 0; j < friendsArray[i].scores.length; j++) {
+        var difference = Math.abs(user.scores[j] - friendsArray[i].scores[j]);
+        console.log(difference);
         totalDifference += difference;
       }
 
@@ -38,9 +40,9 @@ module.exports = function(app) {
     }
 
     // after finding match, add user to friend array
-    friends.push(user);
+    friendsArray.push(user);
 
     // send back to browser the best friend match
-    res.json(friends[bestFriendIndex]);
+    res.json(friendsArray[bestFriendIndex]);
   });
 };
