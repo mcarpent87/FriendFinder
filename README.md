@@ -1,18 +1,13 @@
-# Project Title
+# Friend Finder
 
-One Paragraph of project description goes here
+Friend Finder implements friend matching based on the user's responses to a ten question survey. The user responds to questions with values from 1 (Strongly Disagree) to 5 (Strongly Agree). When the survey is submitted, an existing user record closest to the current user's responses is found and returned. The closest set of user responses is defined as the set with the lowest absolute difference for all ten questions combined.
 
-## Getting Started
+Friend Finder application is meant to simulate a simple dating app. The application is implemented using a Node.js and Express server on the back end and the Bootstrap CSS framework on the front end.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+## Demo
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Deployed * [FriendFinder](https://protected-shelf-15607.herokuapp.com/)
 
 ### Installing
 
