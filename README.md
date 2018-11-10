@@ -1,41 +1,90 @@
-# FriendFinder
+# Project Title
 
-##Live Link:
-https://dashboard.heroku.com/apps/protected-shelf-15607
+One Paragraph of project description goes here
 
-##Instructions:
-Answer a quick survey and you will be matched with a friend that is most compatiable to your answers. It's that easy! You can also access the
-API to view users information. 
+## Getting Started
 
-##Files that make this app run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Prerequisites
 
-server.js file intializes the express server on the port number specified in the file. 
+What things you need to install the software and how to install them
 
+```
+Give examples
+```
 
-Two routing files (htmlRoutes.js and apiRoutes.js) handle the logic on the back end based on the request made by the user.
+### Installing
 
-friends.js holds user data in an array. As uers take the survey, thier information and answers are added to this file as a JSON object that can be viewed in the API. 
+A step by step series of examples that tell you how to get a development env running
 
-2 HTML files (home.html and survey.html) make up the front end portion of the app, these are the two pages that the server routes the user to.
+Say what the step will be
 
+```
+Give the example
+```
 
-A modal imbedded within the survey.html file pops up when the survey is submitted. It pulls up the calculated best match for the user based on the answers on thier survey.
+And repeat
 
+```
+until finished
+```
 
-Multiple npm install packages are necessary for this app to run properly. 
+End with an example of getting some data out of the system or using it for a little demo
 
-Technologies Used:
-** [JavaScript]
-jQuery
-node.js
-Express.js
-HTML 5
-Bootstrap 4
-CSS 3
+## Running the tests
 
+Explain how to run the automated tests for this system
 
+### Break down into end to end tests
 
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
 
 
