@@ -15,16 +15,3 @@ Deployed [FriendFinder](https://protected-shelf-15607.herokuapp.com/) App
 * jQuery
 * Express.js
 * Bootstrap
-
-
-
-
-
-
-
-
-
-
-
-
-
