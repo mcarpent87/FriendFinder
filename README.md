@@ -1,13 +1,13 @@
 # FriendFinder
 
-Live Link:
+##Live Link:
 https://dashboard.heroku.com/apps/protected-shelf-15607
 
-Instructions:
+##Instructions:
 Answer a quick survey and you will be matched with a friend that is most compatiable to your answers. It's that easy! You can also access the
 API to view users information. 
 
-Files that make this app run:
+##Files that make this app run:
 
 
 server.js file intializes the express server on the port number specified in the file. 
@@ -26,10 +26,26 @@ A modal imbedded within the survey.html file pops up when the survey is submitte
 Multiple npm install packages are necessary for this app to run properly. 
 
 Technologies Used:
-JavaScript
+** [JavaScript]
 jQuery
 node.js
 Express.js
 HTML 5
 Bootstrap 4
 CSS 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
